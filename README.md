@@ -40,8 +40,12 @@ function Checkbox({ name, children, index, ...restProps }) {
 ```
 
 - 1차로 구현했던 상태관리는 해당 컴포넌트의 checked 여부를 React에 의해 관리되게끔 잘만들었다고 생각한다.
+![1](https://github.com/clapsheep/lecture-practice/assets/140643716/bfc2f4c4-f3ac-4ba4-86b3-78467139bfad)
+상태에 따른 true. false값도 잘 반환되는 모습.
+
 
 ### 2. 마크업 및 디자인하기
+![스크린샷 2024-02-01 오전 3 27 17](https://github.com/clapsheep/lecture-practice/assets/140643716/332a9f44-9e25-48fc-88e7-9a81cb5912e1)
 
 - [x] 총 5가지의 Input:check 요소와 2가지의 버튼(제출하기 및 다시 선택하기)으로 구성했다.
 - [ ] 전체선택 버튼을 누르면 4가지 버튼 모두 클릭이 되며, 각각의 버튼을 누르면 `checked` true, false가 되게 하고 싶었다.
